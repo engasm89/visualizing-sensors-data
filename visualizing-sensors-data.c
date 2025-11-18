@@ -1,3 +1,11 @@
+/*
+ * Course: Visualizing Sensors Data
+ * Platform: Embedded Systems
+ * Author: Ashraf S A AlMadhoun
+ * Purpose: Auto-generated metadata block to document the learning goals.
+ * Notes: Auto-generated metadata block (2025-11-18)
+ */
+
 #include <stdio.h> // Include I/O for data visualization output
 #include <unistd.h> // Include POSIX sleep for timing
 
@@ -7,6 +15,7 @@ static int hum_pct = 50; // Humidity percentage
 static int press_hpa = 1013; // Pressure in hPa
 
 // Entry generating CSV and JSON frames
+// Main routine: orchestrates the visualizing sensors data scenario
 int main(void) { // Begin main function
   printf("Visualizing Sensors Data\n"); // Title output
   for (int i = 0; i < 6; ++i) { // Loop to emit frames
